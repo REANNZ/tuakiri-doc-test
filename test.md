@@ -1,6 +1,4 @@
 
-{% toc %}
-
 # Test header
 
 Test text.
