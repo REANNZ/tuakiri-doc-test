@@ -1,4 +1,10 @@
 
+Welcome
+
+* Bullet, may be replaced
+
+{%toc}
+
 # Test header
 
 Test text.
