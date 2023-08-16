@@ -1,7 +1,7 @@
 
 Welcome
 
-* Bullet, may be replaced
+1. Ordered TOC placeholder
 {:toc}
 
 # Test header
