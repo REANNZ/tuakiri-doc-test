@@ -1,3 +1,2 @@
 plugins:
-  - jekyll-titles-from-headings
-  #- jekyll-sitemap
+  - jekyll-redirect-from

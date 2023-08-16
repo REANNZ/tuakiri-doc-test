@@ -1,3 +1,8 @@
+---
+title: Test page
+redirect_from:
+ - /tuakiri-doc-test/test-page
+---
 
 Welcome
 
