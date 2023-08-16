@@ -1,2 +1,3 @@
 plugins:
-  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  #- jekyll-sitemap
