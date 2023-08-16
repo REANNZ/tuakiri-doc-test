@@ -10,7 +10,7 @@ Test text.
 
     ABC++ code
 
-<details>
+<details markdown="1">
 <summary>Click here to expand</summary>
 
 # Details
