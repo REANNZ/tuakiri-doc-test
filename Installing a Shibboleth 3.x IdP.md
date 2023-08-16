@@ -10,55 +10,8 @@ For instructions on upgrading a 2.x IdP to 3.x, please see [Upgrading a 2.x IdP 
 
 If you are interested in linking an existing IdP into Tuakiri, please see [Configuring a Shibboleth Identity Provider to join the Tuakiri Federation](https://reannz.atlassian.net/wiki/spaces/Tuakiri/pages/3808985363/Configuring+a+Shibboleth+Identity+Provider+to+join+the+Tuakiri+Federation).
 
-/\*<!\[CDATA\[\*/ div.rbtoc1692069103400 {padding: 0px;} div.rbtoc1692069103400 ul {list-style: disc;margin-left: 0px;padding-left: 20px;} div.rbtoc1692069103400 li {margin-left: 0px;padding-left: 0px;} /\*\]\]>\*/
-
-*   1 [Prerequisites](#InstallingaShibboleth3.xIdP-Prerequisites)
-    *   1.1 [Modifications to Identity Management system](#InstallingaShibboleth3.xIdP-ModificationstoIdentityManagementsystem)
-*   2 [Preliminaries](#InstallingaShibboleth3.xIdP-Preliminaries)
-    *   2.1 [System firewall configuration](#InstallingaShibboleth3.xIdP-Systemfirewallconfiguration)
-*   3 [Bootstrapping the VM](#InstallingaShibboleth3.xIdP-BootstrappingtheVM)
-    *   3.1 [Install packages](#InstallingaShibboleth3.xIdP-Installpackages)
-    *   3.2 [Local configuration](#InstallingaShibboleth3.xIdP-Localconfiguration)
-    *   3.3 [Securing the MySQL server](#InstallingaShibboleth3.xIdP-SecuringtheMySQLserver)
-*   4 [Basic Shibboleth IdP installation](#InstallingaShibboleth3.xIdP-BasicShibbolethIdPinstallation)
-    *   4.1 [Rationale and planning](#InstallingaShibboleth3.xIdP-Rationaleandplanning)
-    *   4.2 [Basic Shibboleth Installation](#InstallingaShibboleth3.xIdP-BasicShibbolethInstallation)
-    *   4.3 [Configure Tomcat and deploy the IdP WAR](#InstallingaShibboleth3.xIdP-ConfigureTomcatanddeploytheIdPWAR)
-    *   4.4 [Configure Apache](#InstallingaShibboleth3.xIdP-ConfigureApache)
-    *   4.5 [Basic Shibboleth Configuration](#InstallingaShibboleth3.xIdP-BasicShibbolethConfiguration)
-    *   4.6 [Configure LDAP Authentication](#InstallingaShibboleth3.xIdP-ConfigureLDAPAuthentication)
-    *   4.7 [Link your Attribute Resolver to your LDAP server](#InstallingaShibboleth3.xIdP-LinkyourAttributeResolvertoyourLDAPserver)
-*   5 [Configure Attribute Resolver - define attributes](#InstallingaShibboleth3.xIdP-ConfigureAttributeResolver-defineattributes)
-    *   5.1 [Delete existing definitions](#InstallingaShibboleth3.xIdP-Deleteexistingdefinitions)
-    *   5.2 [Link existing attributes](#InstallingaShibboleth3.xIdP-Linkexistingattributes)
-    *   5.3 [Define static attributes](#InstallingaShibboleth3.xIdP-Definestaticattributes)
-    *   5.4 [Define scripted attributes](#InstallingaShibboleth3.xIdP-Definescriptedattributes)
-    *   5.5 [Define sharedToken](#InstallingaShibboleth3.xIdP-DefinesharedToken)
-        *   5.5.1 [Configuring a MySQL database for storing sharedToken values](#InstallingaShibboleth3.xIdP-ConfiguringaMySQLdatabaseforstoringsharedTokenvalues)
-        *   5.5.2 [Defining sharedToken attribute (both LDAP and MySQL)](#InstallingaShibboleth3.xIdP-DefiningsharedTokenattribute(bothLDAPandMySQL))
-    *   5.6 [eduPersonTargetedID / PersistentNameID](#InstallingaShibboleth3.xIdP-eduPersonTargetedID/PersistentNameID)
-    *   5.7 [eduPersonAssurance](#InstallingaShibboleth3.xIdP-eduPersonAssurance)
-    *   5.8 [eduPersonEntitlement](#InstallingaShibboleth3.xIdP-eduPersonEntitlement)
-*   6 [Configuring Attribute Release](#InstallingaShibboleth3.xIdP-ConfiguringAttributeRelease)
-*   7 [Register the IdP into the federation](#InstallingaShibboleth3.xIdP-RegistertheIdPintothefederation)
-*   8 [Advanced IdP Configuration](#InstallingaShibboleth3.xIdP-AdvancedIdPConfiguration)
-    *   8.1 [Configure Database Storage](#InstallingaShibboleth3.xIdP-ConfigureDatabaseStorage)
-    *   8.2 [Enabling automatic reload](#InstallingaShibboleth3.xIdP-Enablingautomaticreload)
-    *   8.3 [Load Attribute Filter](#InstallingaShibboleth3.xIdP-LoadAttributeFilter)
-    *   8.4 [ECP support](#InstallingaShibboleth3.xIdP-ECPsupport)
-    *   8.5 [Configuring Single Logout](#InstallingaShibboleth3.xIdP-ConfiguringSingleLogout)
-    *   8.6 [Configuring Consent Module](#InstallingaShibboleth3.xIdP-ConfiguringConsentModule)
-        *   8.6.1 [Excluding SPs from requiring consent](#InstallingaShibboleth3.xIdP-ExcludingSPsfromrequiringconsent)
-    *   8.7 [Friendly attribute names](#InstallingaShibboleth3.xIdP-Friendlyattributenames)
-    *   8.8 [DataSealer Key Refreshing](#InstallingaShibboleth3.xIdP-DataSealerKeyRefreshing)
-    *   8.9 [Centralized Usage Logging](#InstallingaShibboleth3.xIdP-CentralizedUsageLogging)
-    *   8.10 [Configuring SELinux for Tomcat](#InstallingaShibboleth3.xIdP-ConfiguringSELinuxforTomcat)
-    *   8.11 [Enabling HSTS](#InstallingaShibboleth3.xIdP-EnablingHSTS)
-    *   8.12 [Additional Information](#InstallingaShibboleth3.xIdP-AdditionalInformation)
-*   9 [Starting the IdP](#InstallingaShibboleth3.xIdP-StartingtheIdP)
-*   10 [Customization and Branding](#InstallingaShibboleth3.xIdP-CustomizationandBranding)
-*   11 [Administrative Interface](#InstallingaShibboleth3.xIdP-AdministrativeInterface)
-*   12 [Testing](#InstallingaShibboleth3.xIdP-Testing)
+1. TOC
+{:toc}
 
 # Prerequisites
 
