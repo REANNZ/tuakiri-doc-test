@@ -4,6 +4,7 @@ Welcome
 * Bullet, may be replaced
 
 # Test header
+{:toc}
 
 Test text.
 
