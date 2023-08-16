@@ -2,9 +2,9 @@
 Welcome
 
 * Bullet, may be replaced
+{:toc}
 
 # Test header
-{:toc}
 
 Test text.
 
