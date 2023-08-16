@@ -13,7 +13,10 @@ Test text.
 <details>
 <summary>Click here to expand</summary>
 
-This is full of details.
+# Details
+
+* This is full of details.
+* Lots of them
 
 ```
 And some code
