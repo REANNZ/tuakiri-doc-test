@@ -15,7 +15,9 @@ Test text.
 
   This is full of details.
 
-    And some code
+  ```
+  And some code
+  ```
 
 </details>
 
