@@ -11,13 +11,13 @@ Test text.
     ABC++ code
 
 <details>
-  <summary>Click here to expand</summary>
+<summary>Click here to expand</summary>
 
-  This is full of details.
+This is full of details.
 
-  ```
-  And some code
-  ```
+```
+And some code
+```
 
 </details>
 
