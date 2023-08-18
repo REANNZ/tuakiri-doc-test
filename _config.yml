@@ -1,2 +1,3 @@
+remote_theme: marella/jekyll-theme-documentation
 plugins:
   - jekyll-redirect-from
