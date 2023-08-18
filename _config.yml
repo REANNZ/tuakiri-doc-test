@@ -1,17 +1,21 @@
-remote_theme: marella/jekyll-theme-documentation
+remote_theme: jekyll-theme-zendesk-garden/customization
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-relative-links
 
 title: Tuakiri Documentation TEST
 
 owner_name: Tuakiri
 owner_url: https://tuakiri.ac.nz/
 
-nav:
-  - Tuakiri Core Documents:
-    - Test Page: 'test'
-  - Identity Providers:
-    - IdP 3.x Installation Manual: Installing a Shibboleth 3.x Id
-  - eduGAIN resources:
-    - eduGAIN Information Pack: eduGAIN Information PAck
+sidebar:
+  - label: Tuakiri Core Documents
+    children:
+      - test
+  - label: Identity Providers
+    children:
+      - : Installing a Shibboleth 3.x IdP
+  - label: eduGAIN resources
+    children:
+      - eduGAIN Information Pack
