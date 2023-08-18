@@ -1,4 +1,4 @@
-remote_theme: jekyll-theme-zendesk-garden/customization
+remote_theme: zendesk/jekyll-theme-zendesk-garden
 
 plugins:
   - jekyll-redirect-from
