@@ -19,3 +19,4 @@ sidebar:
   - label: eduGAIN resources
     children:
       - eduGAIN Information Pack
+      - edugain_info_pack

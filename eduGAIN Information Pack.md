@@ -1,3 +1,6 @@
+---
+id: edugain_info_pack
+---
 # eduGAIN Information Pack
 {:.no_toc}
 
