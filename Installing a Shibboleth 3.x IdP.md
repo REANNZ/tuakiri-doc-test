@@ -1,3 +1,6 @@
+---
+id: idp_3x_inst
+---
 # Installing a Shibboleth 3.x IdP
 
 This page is a guide to installing a Shibboleth 3.x IdP - based on the [Installing a Shibboleth 2.x IdP](https://reannz.atlassian.net/wiki/spaces/Tuakiri/pages/3808985355/Installing+a+Shibboleth+2.x+IdP) page, but updated for Shibboleth IdP version 3. This page assumes the IdP would be installed on a minimal-OS-install-only Linux system (typically a _virtual machine_) and follows from that point on. The IdP will be installed with the [Shibboleth IdP](http://shibboleth.internet2.edu/) application.

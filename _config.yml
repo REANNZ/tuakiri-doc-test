@@ -9,13 +9,15 @@ title: Tuakiri Documentation TEST
 owner_name: Tuakiri
 owner_url: https://tuakiri.ac.nz/
 
+version: false
+
 sidebar:
   - label: Tuakiri Core Documents
     children:
       - test
   - label: Identity Providers
     children:
-      - Installing a Shibboleth 3.x IdP
+      - idp_3x_inst
   - label: eduGAIN resources
     children:
       - eduGAIN Information Pack
