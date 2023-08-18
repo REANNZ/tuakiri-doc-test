@@ -15,7 +15,7 @@ sidebar:
       - test
   - label: Identity Providers
     children:
-      - : Installing a Shibboleth 3.x IdP
+      - Installing a Shibboleth 3.x IdP
   - label: eduGAIN resources
     children:
       - eduGAIN Information Pack
