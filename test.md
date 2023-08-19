@@ -21,6 +21,12 @@ This should be a Note box.
 > **Warning**  
 This should be a Warning box.
 
+> **Error**  
+Testing a different box.
+
+> **Danger**  
+Testing a different box.
+
 <details markdown="1">
 <summary>Click here to expand</summary>
 
