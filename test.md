@@ -15,6 +15,12 @@ Test text.
 
     ABC++ code
 
+> **Note**  
+This should be a Note box.
+
+> **Warning**  
+This should be a Warning box.
+
 <details markdown="1">
 <summary>Click here to expand</summary>
 
