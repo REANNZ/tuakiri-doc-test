@@ -120,7 +120,7 @@ p {
 
 ul {
   @extend .list-disc;
-  @extend .list-inside;
+  /* @extend .list-inside; */
   @extend .my-2;
   @extend .mb-4;
   @extend .ml-4;
