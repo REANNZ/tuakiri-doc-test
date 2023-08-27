@@ -1,5 +1,6 @@
 ---
-id: edugain_info_pack
+redirect_from: eduGAIN+Information+Pack
+id: edugain_resources/edugain_information_pack
 ---
 # eduGAIN Information Pack
 {:.no_toc}

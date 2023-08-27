@@ -1,5 +1,6 @@
 ---
-id: idp_3x_inst
+redirect_from: Installing+a+Shibboleth+3.x+IdP
+id: identity_providers/installing_a_shibboleth_3_x_idp
 ---
 # Installing a Shibboleth 3.x IdP
 

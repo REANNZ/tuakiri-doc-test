@@ -17,8 +17,7 @@ sidebar:
       - test
   - label: Identity Providers
     children:
-      - idp_3x_inst
+      - identity_providers/installing_a_shibboleth_3_x_idp
   - label: eduGAIN resources
     children:
-      - eduGAIN Information Pack
-      - edugain_info_pack
+      - edugain_resources/edugain_information_pack
