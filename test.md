@@ -39,6 +39,10 @@ Testing a different box.
 > [!IMPORTANT]
 > Testing new note syntax
 
+* Links:
+  * Relative: [README](README)
+  * Path: [README](/README)
+
 <details markdown="1">
 <summary>Click here to expand</summary>
 
