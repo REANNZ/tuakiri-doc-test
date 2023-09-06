@@ -2,7 +2,7 @@ remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.7.3
 
 plugins:
   - jekyll-redirect-from
-  - jekyll-relative-links
+  #- jekyll-relative-links
 
 title: Tuakiri Documentation TEST
 
