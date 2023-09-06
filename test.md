@@ -27,7 +27,7 @@ Testing a different box.
 > **Danger**  
 Testing a different box.
 
-> *Important**  
+> **Important**  
 > Testing new important feature
 
 > [!NOTE]
