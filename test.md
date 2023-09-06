@@ -27,13 +27,16 @@ Testing a different box.
 > **Danger**  
 Testing a different box.
 
-> **Note **  
-> Testing a note with extra space
-
-> *Important **  
+> *Important**  
 > Testing new important feature
 
 > [!NOTE]
+> Testing new note syntax
+
+> [!WARNING]
+> Testing new note syntax
+
+> [!IMPORTANT]
 > Testing new note syntax
 
 <details markdown="1">
