@@ -42,6 +42,8 @@ Testing a different box.
 * Links:
   * Relative: [README](README)
   * Path: [README](/README)
+  * Ext: [README](README.md)
+  * Ext+path: [README](/README.md)
 
 <details markdown="1">
 <summary>Click here to expand</summary>
