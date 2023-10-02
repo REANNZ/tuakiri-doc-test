@@ -5,6 +5,7 @@ plugins:
   #- jekyll-relative-links
 
 title: Tuakiri Documentation TEST
+permalink: :title
 
 owner_name: Tuakiri
 owner_url: https://tuakiri.ac.nz/
