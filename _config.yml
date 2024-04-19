@@ -13,6 +13,7 @@ owner_url: https://tuakiri.ac.nz/
 version: false
 
 sidebar:
+  - index
   - label: Tuakiri Core Documents
     children:
       - test
