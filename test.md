@@ -18,7 +18,7 @@ Test text.
 > **Note**  
 This should be a Note box.
 
-> **Warning**  
+> :warning: **Warning**  
 This should be a Warning box.
 
 > **Error**  
