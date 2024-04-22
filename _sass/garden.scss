@@ -254,7 +254,7 @@ blockquote {
   @extend .flex;
   @extend .text-grey-800;
   @extend .leading-normal;
-  height: calc(100% - 52px - 50px); /* full height - header - footer */
+  height: calc(100% - 52px); /* full height - header (footer is left out) */
 }
 
 .chrome\:sidebar {
@@ -289,7 +289,7 @@ blockquote {
   @extend .border-grey-200;
   @extend .text-grey-700;
   padding: 0 36px;
-  height: 50px;
+  height: 0px; /* 50px */
 }
 
 .chrome\:footer_item {
