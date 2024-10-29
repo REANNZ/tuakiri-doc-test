@@ -40,6 +40,7 @@ Testing a different box.
 > Testing new note syntax
 
 * Links:
+  
   * Relative: [README](README)
   * Path: [README](/README)
   * Ext: [README](README.md)
