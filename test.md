@@ -40,15 +40,13 @@ Testing a different box.
 > Testing new note syntax
 
 * Links:
-
   * Relative: [README](README)
   * Path: [README](/README)
   * Ext: [README](README.md)
   * Ext+path: [README](/README.md)
-
-  ```
-  code
-  ```
+    ```
+    code
+    ```
 
 <details markdown="1">
 <summary>Click here to expand</summary>
